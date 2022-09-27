@@ -1,0 +1,378 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Container-1 {
+  background-color: rgb(235, 235, 235);
+  height: 100vh;
+  /* margin-left: 20px; */
+  background-color: linear-gradient(
+    to right top,
+    #e7f1ff,
+    #e1e7f2,
+    #dbdde4,
+    #d3d3d7,
+    #cacaca
+  );
+}
+
+.container-2 {
+  margin-top: 20px;
+}
+
+.Container-3 {
+  height: 400px;
+  width: 1030px;
+  background-color: rgb(240, 240, 240);
+  margin-left: 200px;
+  margin-top: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 20px;
+  border: 3px solid green;
+}
+
+.Search-Bar {
+  height: 30px;
+  width: 200px;
+  outline: none;
+  border: none;
+  margin-left: 1100px;
+  margin-top: 22px;
+  padding-left: 5px;
+  box-shadow: 10px 10px 26px 1px rgba(0, 0, 0, 0.37);
+  display: inline-block;
+  vertical-align: top;
+}
+
+.Search-Btn {
+  height: 30px;
+  width: 100px;
+  margin-left: 10px;
+  outline: none;
+  border: none;
+  box-shadow: 10px 10px 26px 1px rgba(0, 0, 0, 0.37);
+  color: whitesmoke;
+  font-weight: bold;
+  background-color: rgb(100, 177, 0);
+  border-radius: 2px;
+  display: inline-block;
+  margin-top: 22px;
+  transition: 0.4s;
+}
+
+.Btn-2 {
+  height: 50px;
+  width: 200px;
+  margin-left: 20px;
+  margin-top: 10px;
+  outline: none;
+  border: none;
+  box-shadow: 10px 10px 26px 1px rgba(0, 0, 0, 0.37);
+  color: whitesmoke;
+  font-weight: bold;
+  background-color: rgb(100, 177, 0);
+  border-radius: 2px;
+  display: inline-block;
+  transition: 0.4s;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.Btn-2:hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+.Search-Btn:hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+.Logo {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 15px;
+  color: rgb(20, 20, 20);
+}
+
+.Text-Area {
+  height: 10vh;
+  width: 800px;
+  margin-left: 200px;
+  display: inline-block;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 20px;
+  outline: solid black;
+  vertical-align: top;
+}
+
+.Line {
+  color: gray;
+  width: 1420px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+.Counter {
+  margin-left: 200px;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.Heading-2 {
+  margin-left: 200px;
+  margin-top: 20px;
+  padding-bottom: 2px;
+  font-size: 30px;
+}
+
+.Btn-3{
+  height: 40px;
+  width: 150px;
+  outline: none;
+  border: none;
+  box-shadow: 10px 10px 26px 1px rgba(0, 0, 0, 0.37);
+  color: whitesmoke;
+  font-weight: bold;
+  background-color: rgb(100, 177, 0);
+  border-radius: 2px;
+  transition: 0.4s;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.Btn-3:hover {
+  background-color: green;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.Btn-4{
+  height: 40px;
+  width: 150px;
+  outline: none;
+  border: none;
+  box-shadow: 10px 10px 26px 1px rgba(0, 0, 0, 0.37);
+  color: whitesmoke;
+  font-weight: bold;
+  background-color: rgb(100, 177, 0);
+  border-radius: 2px;
+  transition: 0.4s;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.Btn-4:hover {
+  background-color: green;
+  cursor: pointer;
+  display: inline-block;
+}
+
+
+.text{
+  width: 100%;
+  word-break: break-all;
+}
+
+
+/* Media Query  */
+@media (max-width: 640px) {
+  .Container-1 {
+    background-color: rgb(235, 235, 235);
+    height: 100vh;
+    background-color: linear-gradient(
+      to right top,
+      #e7f1ff,
+      #e1e7f2,
+      #dbdde4,
+      #d3d3d7,
+      #cacaca
+    );
+  }
+  
+  .container-2 {
+    margin-top: 20px;
+  }
+  
+  .Container-3 {
+    height: 200px;
+    width: 95%;
+    background-color: rgb(240, 240, 240);
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    border: 3px solid green;
+  }
+  
+  .Search-Bar {
+    height: 30px;
+    width: 110px;
+    outline: none;
+    border: none;
+    margin-left: 80px;
+    margin-top: 20px;
+    padding-left: 5px;
+    box-shadow: 10px 10px 26px 1px rgba(0, 0, 0, 0.37);
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .Search-Btn {
+    height: 30px;
+    width: 60px;
+    margin-left: 10px;
+    /* margin-right: 10px; */
+    outline: none;
+    border: none;
+    box-shadow: 10px 10px 26px 1px rgba(0, 0, 0, 0.37);
+    color: whitesmoke;
+    font-weight: bold;
+    background-color: rgb(100, 177, 0);
+    border-radius: 2px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    transition: 0.4s;
+  }
+  
+  .Btn-2 {
+    height: 30px;
+    width: 80px;
+    margin-left: 20px;
+    margin-top: 45px;
+    outline: none;
+    border: none;
+    box-shadow: 10px 10px 26px 1px rgba(0, 0, 0, 0.37);
+    color: whitesmoke;
+    /* font-weight: bold; */
+    background-color: rgb(100, 177, 0);
+    border-radius: 2px;
+    display: inline-block;
+    transition: 0.4s;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 10px;
+  }
+  
+  .Btn-2:hover {
+    background-color: green;
+    cursor: pointer;
+  }
+  
+  .Search-Btn:hover {
+    background-color: green;
+    cursor: pointer;
+  }
+  
+  .Logo {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: rgb(20, 20, 20);
+    margin-top: 10px;
+  }
+  
+  .Text-Area {
+    height: 10vh;
+    /* width: 300px; */
+    margin-top: 30px;
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    outline: none;
+    vertical-align: top;
+    margin-left: 30px;
+    width: 60%;
+  }
+  
+  .Line {
+    color: gray;
+    width: 250px;
+    margin-left: 70px;
+    /* margin-right: 50px; */
+    margin-top: 70px;
+  }
+  
+  .Counter {
+    /* margin-left: 200px; */
+    margin-top: 5px;
+    font-size: 15px;
+    margin-left: 28px;
+  }
+  
+  .Heading-2 {
+    margin-left: 110px;
+    margin-top: 80px;
+    padding-bottom: 2px;
+    font-size: 30px;
+  }
+  
+  .Btn-3{
+    height: 30px;
+    width: 80px;
+    outline: none;
+    border: none;
+    box-shadow: 10px 10px 26px 1px rgba(0, 0, 0, 0.37);
+    color: whitesmoke;
+    /* font-weight: bold; */
+    background-color: rgb(100, 177, 0);
+    border-radius: 2px;
+    transition: 0.4s;
+    margin-left: 55px;
+    margin-top: 10px;
+    font-size: 10px;
+  }
+  
+  .Btn-3:hover {
+    background-color: green;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .Btn-4{
+    height: 30px;
+    width: 80px;
+    outline: none;
+    border: none;
+    box-shadow: 10px 10px 26px 1px rgba(0, 0, 0, 0.37);
+    color: whitesmoke;
+    /* font-weight: bold; */
+    background-color: rgb(100, 177, 0);
+    border-radius: 2px;
+    transition: 0.4s;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 10px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .Btn-4:hover {
+    background-color: green;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  
+  .text{
+    /* width: 100%; */
+    margin-left: 10px;
+    overflow: hidden;
+  }
+  
+  .www{
+    word-break: break-all;
+  }
+}
+
+
